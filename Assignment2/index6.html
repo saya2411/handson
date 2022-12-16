@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form and table</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="username" maxlength="10" required>
+        <br><br>
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" placeholder="email" required>
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="password" required>
+        <br><br>
+        <p>Language</p>
+        <input type="radio" name="language" value="react" id="react">
+        <label for="react">React</label><br>
+        <input type="radio" name="language" value="angular" id="angular">
+        <label for="angular">Angular</label><br>
+        <input type="radio" name="language" value="vue" id="vue">
+        <label for="vue">Vue</label><br><br>
+        <p>Course</p>
+        <input type="checkbox" name="course" value="mern" id="mern">
+        <label for="mern">MERN</label><br>
+        <input type="checkbox" name="course" value="mean" id="mean">
+        <label for="mean">MEAN</label><br>
+        <input type="checkbox" name="course" value="mevn" id="mevn">
+        <label for="mevn">MEVN</label><br>
+        <p>Field</p>
+        <select name="field">
+            <option value="front-end">Front End</option>
+            <option value="back-end">Back End</option>
+            <option value="fullstack">Full Stack</option>
+        </select><br><br>
+        <textarea name="feedback" id="text" rows="5"></textarea><br><br>
+        <label for="mobile">Phone Number</label>
+        <input type="tel"  name="mobile" id="mobile"  maxlength="10"><br><br>
+        <!-- <label for="birthdaytime">Birthday (date and time):</label> -->
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <input type="submit">
+        <br><br>
+        <h1>TABLES</h1>
+        <a href="index9.html">Click Here</a>
+    </form>
+</body>
+</html>
